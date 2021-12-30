@@ -30,20 +30,31 @@ Let's start with a farily generic data science based workflow and some details f
 
 - Data directory contains the various csv and shape files
 
-- Notebooks directory contains the initial notebooks available here 
+- Notebooks directory contains the initial notebooks available here:
+
+  ----------------------------
+  **311 Data:**
    - [311-data-cleaning.ipynb](notebooks/311-data-cleaning.ipynb) - Process the [311 csv file](https://data.lacity.org/City-Infrastructure-Service-Requests/MyLA311-Service-Request-Data-2021/97z7-y5bt)
    - [311-data-cleaning-part2.ipynb](notebooks/311-data-cleaning-part2.ipynb) - Extend with service region info and leaflet data
    - [build-datasets.ipynb](notebooks/build-datasets.ipynb) - Test the data generation, select subsets to save for upstream analysis
+   - [api-hacks.ipynb](notebooks/api-hacks.ipynb) - Look at the 311-data.org API
   ------------------------------------ 
+  **Add Context:**
    - [NC-service-region.ipynb](notebooks/NC-service-region.ipynb) - Starting point to add some context from [empower.la](https://empowerla.org)
    - [NC-population-density.ipynb](notebooks/NC-population-density.ipynb) - Build a choropleth map with population per square mile
+
   ------------------------------------
+  **Selecting Data:**
    - [311-ncviz.ipynb](notebooks/311-ncviz.ipynb) - Example of selecting an NC and visualizing the data
    - [ECWANDC.ipynb](notebooks/ECWANDC.ipynb) - This example looks at Empowerment Congress West Area
   ------------------------------------
+  **Graffiti Analysis:**
    - [311-request-type-analysis.ipynb](notebooks/311-request-type-analysis.ipynb) Experiement with different parameters to select datasets
    - [graffiti.ipynb](notebooks/graffiti.ipynb) - Combine timeline with the map
+   - [311-folium-presentation.ipynb](notebooks/311-folium-presentation.ipynb) - Choropleth and animated maps
   ------------------------------------
+  **Context Again:**
   - [zoning.ipynb](notebooks/zoning.ipynb) - Lot's-o-work left on this one
+
 
 This is just the starting point.  There is much more to do!

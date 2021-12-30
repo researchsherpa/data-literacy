@@ -1,27 +1,25 @@
 name: data-literacy
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
-  - python=3.8
+  - python>=3.7
   - jupyterlab=3
   - tqdm
   - requests
   - nodejs
-  - pip
-  - pip:
-    - bqplot
-    - bokeh
-    - matplotlib
-    - ipywidgets
-    - ipyleaflet
-    - pandas
-    - geopandas
-    - osmnx
-    - xlrd
-    - qgrid
-    - openpyxl
-    - pyproj
-    - Shapely
-    - folium
-    - branca
+  - bqplot
+  - bokeh
+  - matplotlib
+  - ipywidgets
+  - ipyleaflet
+  - pandas
+  - geopandas
+  - osmnx
+  - xlrd
+  - qgrid
+  - openpyxl
+  - pyproj
+  - Shapely
+  - folium
+  - branca
