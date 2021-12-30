@@ -50,3 +50,14 @@ def dt_to_object(gdf):
     gdf['updated_dt'] = gdf['updated_dt'].astype(str)
 
     return gdf
+
+def read_ncs(ncs_file='../data/neighborhoods/Neighborhood_Councils_(Certified)_cleaned.shp'):
+
+    ncs_gdf = gpd.read_file(ncs_file)
+
+    ncs_gdf.rename(columns={'NAME': 'name',
+                            'NC_ID': 'nc_id',
+                            'SERVICE_RE': 'service_region'},
+                   inplace=True)
+
+    return ncs_gdf
