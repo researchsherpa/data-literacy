@@ -36,7 +36,7 @@ Let's start with a farily generic data science based workflow and some details f
   **311 Data:**
    - [311-data-cleaning.ipynb](notebooks/311-data-cleaning.ipynb) - Process the [311 csv file](https://data.lacity.org/City-Infrastructure-Service-Requests/MyLA311-Service-Request-Data-2021/97z7-y5bt)
    - [311-data-cleaning-part2.ipynb](notebooks/311-data-cleaning-part2.ipynb) - Extend with service region info and leaflet data
-   - [build-datasets.ipynb](notebooks/build-datasets.ipynb) - Test the data generation, select subsets to save for upstream analysis
+   - [build-datasets.ipynb](notebooks/build-datasets.ipynb) - Run this to test and generate data for graffiti and ECWANDC notebooks
    - [api-hacks.ipynb](notebooks/api-hacks.ipynb) - Look at the 311-data.org API
   ------------------------------------ 
   **Add Context:**
