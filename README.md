@@ -52,6 +52,7 @@ Let's start with a farily generic data science based workflow and some details f
    - [311-request-type-analysis.ipynb](notebooks/311-request-type-analysis.ipynb) Experiement with different parameters to select datasets
    - [graffiti.ipynb](notebooks/graffiti.ipynb) - Combine timeline with the map
    - [311-folium-presentation.ipynb](notebooks/311-folium-presentation.ipynb) - Choropleth and animated maps
+   - [311-folium-with-density.ipynb](notebooks/311-folium-with-density.ipynb) - Adding a new section showing density of requests
   ------------------------------------
   **Context Again:**
   - [zoning.ipynb](notebooks/zoning.ipynb) - Lot's-o-work left on this one
